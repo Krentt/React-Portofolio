@@ -3,7 +3,10 @@ import ReactTyped from "react-typed";
 /* eslint-disable react/no-unescaped-entities */
 const Intro = () => {
   return (
-    <div id="intro" className="lg:w-2/5 lg:min-h-screen pt-[15%] text-center lg:text-left lg:mb-0 mb-28">
+    <div
+      id="intro"
+      className="lg:w-2/5 lg:min-h-screen pt-[15%] text-center lg:text-left lg:mb-0 mb-28"
+    >
       <h1 className="text-3xl lg:text-6xl font-bold pb-2 text-gray-500">
         <ReactTyped
           strings={["hello, it's <span class='text-black'>Marvel</span>"]}

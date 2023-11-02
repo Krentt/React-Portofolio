@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div id="footer" className="flex flex-col mt-8 lg:items-end">
-            <div className="flex flex-row gap-4 mr-8 mb-3 justify-center">
+    <div id="footer" className="flex flex-col mt-8 lg:items-end lg:mr-8">
+      <div className="flex flex-row gap-4 mb-3 justify-center">
         <a href="https://github.com/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,13 +42,12 @@ const Footer = () => {
           </svg>
         </a>
       </div>
-      <div className="text-gray-500 text-sm font-medium text-center lg:text-right mb-8 mr-8">
+      <div className="text-gray-500 text-sm font-medium text-center lg:text-right mb-8">
         <p>
           Built and designed by <b>Marvel Krent</b>
         </p>
         <p>All rights reserved. &copy;</p>
       </div>
-      
     </div>
   );
 };

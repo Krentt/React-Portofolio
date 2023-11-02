@@ -2,9 +2,14 @@ const About = () => {
   return (
     <div id="about" className="mb-8">
       <div id="about-header">
-        <h1 className="lg:text-3xl text-2xl font-bold pb-2 text-gray-500">/about-me</h1>
+        <h1 className="lg:text-3xl text-2xl font-bold pb-2 text-gray-500">
+          /about-me
+        </h1>
       </div>
-      <div id="about-content" className="flex flex-row lg:text-start text-justify lg:text-xl text-lg px-3">
+      <div
+        id="about-content"
+        className="flex flex-row lg:text-start text-justify lg:text-xl text-lg px-3"
+      >
         <div id="about-content-description">
           <p className="mb-2">
             I&apos;m a final-year student studying{" "}
