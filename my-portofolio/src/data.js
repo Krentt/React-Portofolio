@@ -34,9 +34,10 @@ const getData = () => {
         "Delivered course materials, conducted mentoring sessions, and assessed student assignments, ensuring a thorough understanding of the subject matter.",
         "Developed and improved soft skills, such as effective communication, mentoring, and knowledge transfer.",
         "Facilitated a conducive learning environment and aided students in their academic endeavors.",
-        "Continuously contributed to enhancing the educational experience for students and fostering a collaborative learning atmosphere."
+        "Continuously contributed to enhancing the educational experience for students and fostering a collaborative learning atmosphere.",
       ],
-      skills: "Python, Data Science, Machine Learning, Knowledge Management, Teaching",
+      skills:
+        "Python, Data Science, Machine Learning, Knowledge Management, Teaching",
     },
   ];
 };

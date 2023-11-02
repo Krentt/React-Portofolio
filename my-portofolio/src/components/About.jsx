@@ -2,10 +2,9 @@ import Aos from "aos";
 import { useEffect } from "react";
 
 const About = () => {
-
   useEffect(() => {
-    Aos.init({duration:1400})
-  })
+    Aos.init({ duration: 2000 });
+  });
 
   return (
     <div id="about" className="mb-8" data-aos="fade-up" data-aos-once="true">

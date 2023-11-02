@@ -4,10 +4,9 @@ import ReactTyped from "react-typed";
 
 /* eslint-disable react/no-unescaped-entities */
 const Intro = () => {
-
   useEffect(() => {
-    Aos.init({duration:1400})
-  })
+    Aos.init({ duration: 2000 });
+  });
 
   return (
     <div
@@ -17,14 +16,16 @@ const Intro = () => {
       <h1 className="text-3xl lg:text-6xl font-bold pb-2 text-gray-500">
         <ReactTyped
           strings={["hello, it's <span class='text-black'>Marvel</span>"]}
-          typeSpeed={100}
+          typeSpeed={50}
         />
       </h1>
       <div data-aos="fade-left" data-aos-once="true">
-        <h2 className="text-2xl lg:text-3xl pb-2">I love to create something!</h2>
+        <h2 className="text-2xl lg:text-3xl pb-2">
+          I love to create something!
+        </h2>
         <p className="text-lg lg:text-xl pb-8">
-          I'm a junior software engineer and data enthusiast based in Jakarta. My
-          passion revolves around microservices, backend development, and
+          I'm a junior software engineer and data enthusiast based in Jakarta.
+          My passion revolves around microservices, backend development, and
           artificial intelligence. Feel free to explore with me as we delve into
           the fascinating realms of technology.
         </p>

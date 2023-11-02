@@ -3,10 +3,9 @@ import PropTypes from "prop-types";
 import { useEffect } from "react";
 
 const TabContent = ({ title, periods, skills, descriptions }) => {
-
   useEffect(() => {
-    Aos.init({duration:1200})
-  })
+    Aos.init({ duration: 1400 });
+  });
 
   return (
     <div id="tab-content" data-aos="fade-left" data-aos-once="true">

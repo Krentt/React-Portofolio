@@ -4,10 +4,9 @@ import ProjectList from "./ProjectList";
 import Aos from "aos";
 
 const Project = () => {
-
   useEffect(() => {
-    Aos.init({duration:1400})
-  })
+    Aos.init({ duration: 2000 });
+  });
 
   return (
     <div id="projects" className="mt-20">
@@ -16,7 +15,12 @@ const Project = () => {
           /projects
         </h1>
       </div>
-      <div id="projects-contents" className="mt-4 flex flex-col gap-8" data-aos="fade-up" data-aos-once="true">
+      <div
+        id="projects-contents"
+        className="mt-4 flex flex-col gap-8"
+        data-aos="fade-up"
+        data-aos-once="true"
+      >
         <Carousel />
         <ProjectList />
       </div>

@@ -3,15 +3,19 @@ import VerticalTabs from "./VerticalTabs";
 import Aos from "aos";
 
 const Experience = () => {
-
   useEffect(() => {
     Aos.init({
-      duration:1400
-    })
-  })
+      duration: 2000,
+    });
+  });
 
   return (
-    <div id="experience" className="mt-20" data-aos="fade-up" data-aos-once="true">
+    <div
+      id="experience"
+      className="mt-20"
+      data-aos="fade-up"
+      data-aos-once="true"
+    >
       <div id="experience-header">
         <h1 className="lg:text-3xl text-2xl font-bold pb-2 text-gray-500">
           /my-experiences

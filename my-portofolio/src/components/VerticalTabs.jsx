@@ -74,7 +74,12 @@ export default function VerticalTabs() {
         ))}
       </Tabs>
       {experiences.map((experience, index) => (
-        <TabPanel key={experience.id} value={value} index={index} className="w-full">
+        <TabPanel
+          key={experience.id}
+          value={value}
+          index={index}
+          className="w-full"
+        >
           <TabContent {...experience} />
         </TabPanel>
       ))}
