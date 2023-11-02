@@ -47,7 +47,7 @@ export default function VerticalTabs() {
   const smallScreen = useMediaQuery("(max-width: 768px)");
 
   return (
-    <Box className="md:flex">
+    <Box className="md:flex grow">
       <Tabs
         orientation={smallScreen ? "horizontal" : "vertical"}
         variant="scrollable"
@@ -74,7 +74,7 @@ export default function VerticalTabs() {
         ))}
       </Tabs>
       {experiences.map((experience, index) => (
-        <TabPanel key={experience.id} value={value} index={index}>
+        <TabPanel key={experience.id} value={value} index={index} className="w-full">
           <TabContent {...experience} />
         </TabPanel>
       ))}

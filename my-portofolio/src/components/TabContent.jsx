@@ -1,8 +1,15 @@
+import Aos from "aos";
 import PropTypes from "prop-types";
+import { useEffect } from "react";
 
 const TabContent = ({ title, periods, skills, descriptions }) => {
+
+  useEffect(() => {
+    Aos.init({duration:1200})
+  })
+
   return (
-    <div id="tab-content">
+    <div id="tab-content" data-aos="fade-left" data-aos-once="true">
       <div id="tab-content-header">
         <h1 className="lg:text-xl text-lg font-bold text-gray-500">{title}</h1>
         <h4 className="lg:text-lg italic text-gray-400">{periods}</h4>
