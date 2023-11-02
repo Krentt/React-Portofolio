@@ -78,7 +78,7 @@ export default function VerticalTabs() {
           key={experience.id}
           value={value}
           index={index}
-          className="w-full"
+          className="lg:w-full"
         >
           <TabContent {...experience} />
         </TabPanel>
