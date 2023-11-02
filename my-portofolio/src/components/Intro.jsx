@@ -4,9 +4,10 @@ import ReactTyped from "react-typed";
 
 /* eslint-disable react/no-unescaped-entities */
 const Intro = () => {
+
   useEffect(() => {
-    Aos.init({ duration: 2000 });
-  });
+    Aos.init({duration:2000})
+  })
 
   return (
     <div
@@ -19,13 +20,11 @@ const Intro = () => {
           typeSpeed={50}
         />
       </h1>
-      <div data-aos="fade-left" data-aos-once="true">
-        <h2 className="text-2xl lg:text-3xl pb-2">
-          I love to create something!
-        </h2>
+      <div data-aos="fade-up" data-aos-once="true">
+        <h2 className="text-2xl lg:text-3xl pb-2">I love to create something!</h2>
         <p className="text-lg lg:text-xl pb-8">
-          I'm a junior software engineer and data enthusiast based in Jakarta.
-          My passion revolves around microservices, backend development, and
+          I'm a junior software engineer and data enthusiast based in Jakarta. My
+          passion revolves around microservices, backend development, and
           artificial intelligence. Feel free to explore with me as we delve into
           the fascinating realms of technology.
         </p>
