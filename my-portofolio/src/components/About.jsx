@@ -41,7 +41,7 @@ const About = () => {
         >
           <img
             className="rounded-xl shadow-xl max-w-[55%] hover:-translate-y-3"
-            src="src/assets/marvel.jpg"
+            src="my-portofolio/src/assets/marvel.jpg"
             alt="profile picture"
           ></img>
         </div>
