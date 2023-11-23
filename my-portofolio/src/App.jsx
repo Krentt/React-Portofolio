@@ -14,11 +14,14 @@ const App = () => {
   });
 
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <header>
         <Navbar />
       </header>
-      <div id="content" className="px-4 md:px-[15%]">
+      <div
+        id="content"
+        className="px-4 md:px-[15%] overflow-x-hidden overflow-y-hidden"
+      >
         <Intro />
         <About />
         <Experience />

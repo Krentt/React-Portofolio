@@ -1,4 +1,4 @@
-import Aos from 'aos';
+import Aos from "aos";
 import PropTypes from "prop-types";
 import { useEffect } from "react";
 

@@ -44,7 +44,12 @@ const About = () => {
             <li>HTML & CSS</li>
           </ul>
           <p className="">
-            Outside of work, i do really like of money, Mr. Crab wannabe!
+            Outside of work, I am passionate about <b>continuous learning</b>{" "}
+            and <b>exploring new horizons</b> in the world of technology.
+            Currently, I am expanding my skill set by delving into{" "}
+            <span className="text-gray-600 font-bold">Go programming</span>.
+            Additionally, I enjoy participating in bootcamps to immerse myself
+            in different programming languages and frameworks.
           </p>
         </div>
         <div

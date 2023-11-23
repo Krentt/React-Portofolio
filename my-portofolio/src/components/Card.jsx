@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 
-const Card = ({ title, description, github }) => {
+const Card = ({ title, description, github, skills }) => {
   return (
     <div className="card bg-base-100 shadow-xl border-solid border-gray-500 border-2">
       <div className="card-body">
         <h2 className="lg:card-title text-lg font-bold">{title}</h2>
         <p>{description}</p>
         <div id="card-footer" className="flex mt-6">
-          <p className="italic">Java, Spring Boot, Thymeleaf</p>
+          <p className="italic">{skills}</p>
           <a href={github}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,6 +39,7 @@ Card.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   github: PropTypes.string.isRequired,
+  skills: PropTypes.string.isRequired,
 };
 
 export default Card;
