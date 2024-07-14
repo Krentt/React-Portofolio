@@ -2,9 +2,22 @@ const getData = () => {
   return [
     {
       id: 1,
-      title: "Application Developer Intern",
+      title: "Backend Developer Freelance",
+      location: "Astra Credit Companies",
+      periods: "January 2024 - Present",
+      descriptions: [
+        "Participated in the 'Otoransi' web project at Astra Credit Companies, designing APIs for both user and admin platforms within a vehicle insurance service.",
+        "Engineered a data scheduler for seamless integration between 'Otoransi' web interfaces and the central database of 'Asuransi Ramayana', enhancing data reliability and accessibility.",
+        "Implemented a microservices architecture utilizing Redis as the message broker to significantly improve system responsiveness and scalability.",
+        "Developed performance optimization strategies including advanced caching, indexing, and asynchronous processing to boost application speed and enhance user experience."
+      ],
+      skills: "Java, PostgreSQL, Spring Boot, Redis, Rest Template",
+    },
+    {
+      id: 2,
+      title: "Backend Developer Internship",
       location: "Metrodata",
-      periods: "August 2023 - Present",
+      periods: "August 2023 - Desember 2023",
       descriptions: [
         "As an intern at Metrodata Academy, I am actively involved in the transition to a microservices architecture. I collaborate with the team on the backend system migration, aimed at enhancing scalability and efficiency.",
         "Proudly, we have successfully implemented over 90% of the migration within a span of less than 5 months, showcasing our team's dedication and efficiency in this complex process.",
@@ -13,7 +26,7 @@ const getData = () => {
       skills: "Java, MySQL, Spring Boot, Redis, Eureka, Rest Template",
     },
     {
-      id: 2,
+      id: 3,
       title: "Mobile Development Apprentice",
       location: "Bangkit Academy",
       periods: "Febuary 2023 - June 2023",
@@ -25,7 +38,7 @@ const getData = () => {
       skills: "Kotlin, Jetpack Compose",
     },
     {
-      id: 3,
+      id: 4,
       title: "Teaching Assistant",
       location: "University of Indonesia",
       periods: "Febuary 2022 - Present",

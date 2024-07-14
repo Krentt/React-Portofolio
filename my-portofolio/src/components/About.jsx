@@ -19,17 +19,14 @@ const About = () => {
       >
         <div id="about-content-description">
           <p className="mb-2">
-            I&apos;m a final-year student studying{" "}
-            <span className="text-gray-600 font-bold">Information Systems</span>{" "}
-            at
-            <b> University of Indonesia</b>. As a{" "}
-            <span className="text-gray-600 font-bold">
-              Software Engineer Intern
-            </span>
-            &nbsp;at <b>Metrodata Electronics Tbk</b>, I&apos;m actively
-            involved in backend development, specializing in microservices with
-            technologies like Spring Boot and Redis.
+            I&apos;m a recent graduate from the <span className="text-gray-600 font-bold">University of Indonesia</span>, 
+            where I earned a degree in <span className="text-gray-600 font-bold">Information Systems</span>. 
+            Currently, I am a <span className="text-gray-600 font-bold">Backend Developer </span> 
+            with a focus on modern technologies such as Java, Kotlin, and Spring Boot. 
+            My projects often involve developing robust APIs, optimizing server management, and enhancing database operations. 
+            I am passionate about leveraging my skills to build backend systems that improve efficiency and user engagement.
           </p>
+
           <p className="mb-3">
             Here are some tech stacks I have been working with:
           </p>
@@ -57,7 +54,7 @@ const About = () => {
           className="hidden lg:flex self-start justify-center"
         >
           <img
-            className="rounded-xl shadow-xl max-w-[55%] hover:-translate-y-3"
+            className="rounded-xl shadow-xl max-w-[75%] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl"
             src="marvel.jpg"
             alt="profile picture"
           ></img>
